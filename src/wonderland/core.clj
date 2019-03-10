@@ -10,3 +10,6 @@
 
 (same-fav-foods [:toast :blueburry :orange] [:orange :toast :pnut-butter])
 
+;; function that lets you know if a given number is greater than zero
+(def greater-than-zero (fn [num]
+                         (< 0 num)))
